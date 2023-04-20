@@ -1,0 +1,22 @@
+.increment-btn{
+    
+    padding: 5px;
+    border-radius: 10px;
+    width: 50px;
+    text-align: center;
+    justify-content: center;
+    margin:50px;
+    margin-bottom: 10px;
+}
+.counter-app{
+display: flex;
+}
+.reset-Btn{
+    size: 20px;
+    border: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+}
+.form-style{
+    background-color: rgb(44, 172, 129);
+}

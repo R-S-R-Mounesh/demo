@@ -1,0 +1,244 @@
+@import url('https://unpkg.com/bootstrap@5.2.3/dist/css/bootstrap.min.css');
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+h3{
+  margin: 10px;
+}
+.Click-btn{
+
+  color: rgb(18, 3, 3);
+  border-radius: 10px;
+  justify-content: center;
+  padding: 10px ;
+}
+
+.firstcmp{
+  color: cadetblue;
+}
+.secondcmp{
+  color: darksalmon;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+nav{
+  list-style-type: none;
+  text-decoration: none;
+  display: inline-block;
+  display: flex;
+}
+.App-header {
+  background-color: #47066c;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.increment-btn{
+  
+  padding: 10PX 10PX;
+  margin-right: 100px;
+
+}
+.total{
+  padding: 25px;
+
+}
+.reset-Btn{
+  size: 20px;
+  border: 50px;
+  font-weight: 300;
+}
+.form-style{
+  background-color: aquamarine;
+  padding: 20px;
+  background-image: url(./../company\ image.jpg);
+  color: aliceblue;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px #2a2525;
+  background-position: 10%;
+  height: 100%;
+  width: 100%;
+}
+.form-text{
+  color: rgb(246, 250, 250);
+}
+.btn:hover{
+  background-color: rgb(178, 111, 17);
+  
+  
+
+}
+
+.alert{
+  width:300px;
+  height: 60px;
+  
+}
+.nav{
+  display: flex;
+  display: inline-block;
+}
+img{
+  height: 350px;
+width: 600px;
+left: 686px;
+top: 116px;
+border-radius: [object Object]px;
+
+}
+.vector{
+  height: 52.14149475097656px;
+width: 166.41336059570312px;
+left: -0.004272937774658203px;
+top: 0px;
+border-radius: 0px;
+
+}
+.studio{
+  height: 34px;
+width: 120px;
+left: 120px;
+top: 42px;
+border-radius: nullpx;
+padding-left: 20px;
+
+}
+.goo{
+  height: 38.15657424926758px;
+width: 37.167869567871094px;
+left: 0.218719482421875px;
+top: 0.076171875px;
+border-radius: 0px;
+
+}
+.uber{
+  height: 26.941438674926758px;
+width: 78.1806869506836px;
+left: 0.536590576171875px;
+top: 0.568359375px;
+border-radius: 0px;
+
+}
+.eats{
+  height: 26.986906051635742px;
+width: 78.16712951660156px;
+left: 88.083984375px;
+top: 0.568359375px;
+border-radius: 0px;
+
+}
+.a{
+  height: 25.004484176635742px;
+width: 20.943052291870117px;
+left: 0px;
+top: 0px;
+border-radius: 0px;
+
+}
+.am{
+  height: 24.481361389160156px;
+width: 29.506322860717773px;
+left: 24.128082275390625px;
+top: 0.2154541015625px;
+border-radius: 0px;
+
+}
+.ama{
+  height: 25.004484176635742px;
+width: 20.937578201293945px;
+left: 57.4306640625px;
+top: 0px;
+border-radius: 0px;
+
+}
+.amaz{
+  height: 23.48919105529785px;
+width: 17.295124053955078px;
+left: 80.99810791015625px;
+top: 0.6278076171875px;
+border-radius: 0px;
+
+}
+.amazo{
+  height: 24.949081420898438px;
+width: 19.876758575439453px;
+left: 100.400390625px;
+top: 0.2154541015625px;
+border-radius: 0px;
+
+}
+.amazon{
+  height: 24.481361389160156px;
+width: 17.997533798217773px;
+left: 123.54888916015625px;
+top: 0.2154541015625px;
+border-radius: 0px;
+
+}
+.client{
+  font-weight: 100;
+}
+.product{
+  font-weight: 100;
+}
+.first-img:hover{
+  cursor: pointer;
+  image-orientation: flip;
+}
+.con{
+  border-radius: 20px;
+}
+.rect{
+  height: 178px;
+width: 178px;
+left: 1142px;
+top: 546px;
+border-radius: [object Object]px;
+justify-content: end;
+
+}
+.grid{
+  display: grid;
+  grid-template-columns: repeat(6,1fr);
+}
+.grid-2{
+  grid-column-start: 6;
+}
+.grid-3{
+grid-column-start: 1;
+}
+.grid-4{
+  grid-column-start: 6;
+}
+.grids{
+  display: grid;
+  grid-template-columns: repeat(6);
+}
